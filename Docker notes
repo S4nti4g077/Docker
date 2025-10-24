@@ -12,6 +12,10 @@ Commands:
 *docker run XXX* - uruchamia albo instaluje i uruchamia dane oprogramowanie 
   run -d  -uruchamia w detatch mode (pokazuje ID a nie nazwe kontenera)
 
+*docker exec -it de13959ID /bin/bash* - wejdzie w kontener i można nawigować po folderach / plikach itp.
+
+
+
 Container port VS Host port
 
 Host (komputer) może nadawać na różnych portach - ale nie 2 razy na tym samym (nie można otworzyć dwóch o tym samym numerze)
