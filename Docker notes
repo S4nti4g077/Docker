@@ -1,3 +1,6 @@
+Instalacja: 
+Minimum - Win 10, jak nie to trzeba instalować Docker toolbox
+
 Commands:
 
 *docker pull XXXX* - instaluje najnowszą wersję oprogramowania w dockerze - np Jenkins
@@ -22,5 +25,7 @@ Host (komputer) może nadawać na różnych portach - ale nie 2 razy na tym samy
 Container (oprogramowanie) może również mieć różne numery ale słuchać jednego portu nadawczego od hosta (kilka kontenerów z różnymi portami może nasłuchiwać tego samego portu hosta) 
     np Jenkins 4.0 i Jenkins 6.2 będą nasłuchiwać portu 3000 od kompa
 
-docker run -p6000:6379 redis  -- tą komendą przypiszemy do portu hosta 6000, kontener w porcie 6379 
+**docker run -p6000:6379 redis**  -- tą komendą przypiszemy do portu hosta 6000, kontener w porcie 6379 
 
+Troubleshooting commands:
+**docker logs** -
