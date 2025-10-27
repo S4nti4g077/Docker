@@ -27,5 +27,4 @@ Container (oprogramowanie) może również mieć różne numery ale słuchać je
 
 **docker run -p6000:6379 redis**  -- tą komendą przypiszemy do portu hosta 6000, kontener w porcie 6379 
 
-Troubleshooting commands:
-**docker logs** -
+Żeby nie robić za ka
